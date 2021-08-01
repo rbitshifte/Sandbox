@@ -2,7 +2,7 @@
 terraform {
   required_version = ">=0.12.13"
   backend "s3" {
-    bucket         = "tf-state-rbitshifte-sandbox"
+    bucket         = "tf-state-rbitshifte"
     key            = "terraform.tfstate"
     region         = "us-east-2"
     dynamodb_table = "aws-locks"
