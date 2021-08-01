@@ -1,3 +1,8 @@
+##
+# Terraform repo .gitignore
+# Source: https://github.com/github/gitignore/blob/master/Terraform.gitignore
+##
+
 # Local .terraform directories
 **/.terraform/*
 
