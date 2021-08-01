@@ -1,6 +1,5 @@
 # Require TF version to be same as or greater than 0.12.13
 terraform {
-  required_version = ">=0.12.13"
   backend "s3" {
     bucket         = "tf-state-rbitshifte"
     key            = "terraform.tfstate"
